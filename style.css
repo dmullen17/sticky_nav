@@ -1,0 +1,57 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 100;
+    align-items: center;
+    background: rgba(0, 0, 0, .03);
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h1 {
+    color: white;
+    font-size: 3.5em;
+}
+
+p {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 15px;
+}
+
+.bkg-image {
+    height: 40vh;
+    width: auto;
+    background-image: url(luca-micheli-455516-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    color: white;
+    background: black;
+    margin: 0;
+    display: flex;
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text {
+    width: 70vw;
+    background: white;
+    margin-top: 90px;
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, .04);
+}
+
