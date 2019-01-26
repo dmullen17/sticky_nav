@@ -43,11 +43,18 @@ p {
     display: flex;
 }
 
+.navbar-fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
 .text-container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .text {
     width: 70vw;
     background: white;
